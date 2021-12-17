@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Predict price house</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='forms.css')}}">
+</head>
+
+<body>
+    <cemter>
+        <div>
+            <h1>Forms</h1>
+
+            <form action="" method="post">
+                <div className="form-group">
+                    <label>Quantidade de quartos.</label>
+                    <input id="bedrooms" type="text" name="bedrooms" placeholder="3"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de banheiros.</label>
+                    <input id="bathrooms" type="text" name="bathrooms" placeholder="1"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de pés quadrados da casa.</label>
+                    <input id="sqft_living" type="text" name="sqft_living" placeholder="1180" />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de pés quadrados do terreno.</label>
+                    <input id="sqft_lot" type="text" name="sqft_lot" placeholder="5650" />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de andares.</label>
+                    <input id="floors" type="text" name="floors" placeholder="1"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Vista para o mar?[0/1].</label>
+                    <input id="waterfront" type="text" name="waterfront" placeholder="0"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de vistas.</label>
+                    <input id="view" type="text" name="view" placeholder="0"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Nível de condição do imovel.</label>
+                    <input id="condition" type="text" name="condition" placeholder="3"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Nível de grau do imovel.</label>
+                    <input id="grade" type="text" name="grade" placeholder="7"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Pés quadrados de altitude.</label>
+                    <input id="sqft_above" type="text" name="sqft_above" placeholder="1180"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Pés quadrados porão.</label>
+                    <input id="sqft_basement" type="text" name="sqft_basement" placeholder="0"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Ano de construção.</label>
+                    <input id="yr_built" type="text" name="yr_built" placeholder="1955"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Houve reforma[0/1].</label>
+                    <input id="yr_renovated" type="text" name="yr_renovated" placeholder="0"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de pés quadrados da casa ano 2015.</label>
+                    <input id="sqft_living15" type="text" name="sqft_living15" placeholder="1340"  />
+                </div>
+
+                <div className="form-group">
+                    <label>Quantidade de pés quadrados do terreno ano 2015</label>
+                    <input id="sqft_lot15" type="text" name="sqft_lot15" placeholder="5650"  />
+                </div>
+
+                <div>
+                    <button type="submit"> Salvar </button>
+                </div>
+
+            </form>
+        </div>
+    </cemter>
+</body>
+
+</html>
