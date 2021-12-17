@@ -4,6 +4,6 @@ Flask_SQLAlchemy
 Werkzeug
 gunicorn
 SQLAlchemy
-psycopg2
 urllib3
-requests
+db-sqlite3
+requests==2.26.0
