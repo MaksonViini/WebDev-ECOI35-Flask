@@ -90,6 +90,7 @@ def form():
         headers["Accept"] = "application/json"
         price = requests.post(
             'https://projectpricehouse.herokuapp.com/predict', data=json.dumps(payload), headers=headers)
+            
 
         price = price.json()['Price']
 

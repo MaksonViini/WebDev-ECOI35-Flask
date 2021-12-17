@@ -1,8 +1,8 @@
 Flask
 Flask_Login
 Flask_SQLAlchemy
-requests
 Werkzeug
 gunicorn
 SQLAlchemy
 psycopg2
+requests
