@@ -1,17 +1,18 @@
 # Build an aplication
 
-### Digit the bash command, setup.sh for installer the libs and execute the app application.
+## Digit the bash command, setup.sh for installer the libs and execute the app application.
 
 `
 bash setup.sh
 `
+
 Or in the terminal
 
 `
 python3 main.py
 `
 
-### Routers the application
+## Routers the application
 
 > /register   
     
